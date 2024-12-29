@@ -7,15 +7,15 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VUW5OiOBj9L3nVHuUOVnXVAt5QEVHAy9bUVoAAUW6GoNhd/vct7O7qftiZ7XlLhXByci7fK8gLXKE5uoHBKygJvkCK2iW9lQgMgFZHESKgC0JIIRiA0WKkZsuCNHOlt2VEUWiW0bohtiIVZMqQtZhYW+FwVhmWfwb3LihrP8XBbwAdjUhs2GH9II/qeD8d807flhjHRHPCqWzMqdbpZHN84NjP4N4iQkxwHo/KBGWIwHSObiuIyffoZxaz80plfzw4eqMTu7xCW17tVNE5BGXNecYhrblLXg8n/e/Rz+21liTOVVb749ksyv2O1VwcY1V41SgVF/IEni+GVHqHtHijX+E4R6ERopxievsD3Tlv1UcGNKK5P04Eo1MERx01jF6wdqFJeDjDN7TCZ9b8HvGZsgtqBDEtpXKYiGEYnRJdYjo4JLWfn3u1x1pprzA5zv1KfEU+snL6E92t6b5w4Is86nE5k/rXZjrcbC56B15CSeWGQqKfXbJww42nfo++YqH5crQ0ZtbKiq+HnbxwX4RFc5SPsqjb3MrypTHBezYZm5/0Ia3J71jq5vW0ln2PHPx035xThZhmuVC0s19IemRszv3MtBcde+9aTGXZ1sU9edVuiU6XMI/pbM+IU4EwY7Rjtx1j6UxlNNaS+PnxohO6GSEYMPcuICjGFSWQ4iJv93i+C2B42aCAIPpQF6zWs2jGWfnS38MbdnljiXdubrHCaMLMfK8Xm37ubKKjvXCfQReUpAhQVaFwiitakJuJqgrGqAKDv392QY4a+uZbexvHdEGESUXdvC7TAoYfpn58hEFQ1Dnd3PJAbxeIgEH/cxtRivO4amWsc0iCBF+QnkBagUEE0wrduyBEFxygFg+cLQVPvQtn8+JYIVmae4nUv7aUkyJ/OxIFUsAwSH4SFFF+4kUpeJIZyDz1oQKRxAeSwHCgC/B7Zdp/fukgS71qh0ZmGBZDzRzrznZ7OZe414zdhwtv0iOCQjCgpEZd4MPgVJdOcUL572rOpmamzslVG43Ikoij20WMHV4phsUX3DdLweD1c0zpRdjizSRNnfBbAXRB9kggbl/OCrwkiLIgyqwwUP6qflxbHWFZ/sgRBV2Qw/Yw+GeTwGv+T3vPuwktQogoxGnVxnaur5NQnYyMHW78ajJRR7Gqxyr4NO0j/G/pgmwI42LbDO2tmYxnxwIP19MsFreNyCHWnWx0Vtsvb1tl2n/+D5C2z/0iQ1Vw7pWKnDGO6qEFvW5Mlhtzh159rIysclmqvyxOaIjh8pZuRu4Le2CEPZdCTYmqvSPOmCVETS0WscOOmcLT2qZ8hOfrZR5ZrSXbx5vVxrjhWJlz2YuSRHNWI2e/irdzVzkItohMu9GHlt5xYMCv6Utx9W10nCVaGed4l/Nrrtez3JEyOQ6ZPlbfavkYC+n7OMaPxry+Ry3C6DHd3l34P7M+Q9+/d79AvI/LXwRL29J8W8zHld0fH431Zi8acX8tFFZaIcrRVDvFNN4Og/SyVsD9/rMLyhTSqCAZGIAq8yHoghRWVP0srYMzVFGYlWDASJzAy5Ik8vd/AQozdZvpBwAA',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
+    OWNER_NAME: process.env.OWNER_NAME || "Shawn23",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " Shawn A",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'BMW_MD',
+    BOT : process.env.BOT_NAME || 'Shawn_MD',
     URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/h2ydge.jpg',
-    MODE: process.env.PUBLIC_MODE || "yes",
+    MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
